@@ -2,17 +2,18 @@
 const STR_ONE = 'Hello'
 
 let answerOne
-
-
-
-
+if (STR_ONE === 'Hello') {
+  answerOne = true
+}
+console.log(answerOne)
 // Use conditional statements to set answerTwo to true if STR_TWO is not 'Hello'
 const STR_TWO = 'Goodbye'
 
 let answerTwo
-
-
-
+if (STR_TWO !== 'Hello') {
+  answerTwo = true
+}
+console.log(answerTwo)
 
 // Use conditional statements to set answerThree to true if STR_THREE is
 // longer than STR_FOUR
@@ -20,9 +21,10 @@ const STR_THREE = 'Hello'
 const STR_FOUR = 'Good'
 
 let answerThree
-
-
-
+if (STR_THREE.length > STR_FOUR.length) {
+  answerThree = true
+}
+console.log(answerThree)
 
 // Use a combination of a loop and conditional statements to set answerFour
 // to false if STR_FIVE has an odd number of vowels, or true if it has an
